@@ -68,3 +68,10 @@
 body{
   background-color:#3F72AF;
 }
+
+@media screen and (max-width: 600px) {
+  boady{
+    size-adjust: auto;
+    align-self: start;
+  }
+}
