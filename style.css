@@ -68,3 +68,13 @@
 body{
   background-color:#3F72AF;
 }
+
+@media screen and (max-width: 55px) {
+  .topnav{
+    margin: auto;
+    padding: 0;
+    border:black,darkgray,gray,lightgray;
+    border-radius: 1px 2px 5px;
+  }
+  
+}
