@@ -1,0 +1,3 @@
+flask==3.0.3
+yagmail==0.15.293
+pylance==v2024.8.2
