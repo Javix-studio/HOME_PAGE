@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template
-import yagmail
+import yagmail # type: ignore
 
 app = Flask(__name__)
 
