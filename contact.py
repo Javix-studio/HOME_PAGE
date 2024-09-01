@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('index.html')  # This should be your HTML file.
+    return render_template('contact.html')  # This should be your HTML file.
 
 @app.route('/send-email', methods=['POST'])
 def send_email():
