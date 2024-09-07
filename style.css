@@ -27,6 +27,6 @@ body{
   background-color: #3F72AF;
   color: white;
 }
-h1{
-  font: Calibri;
+p{
+  text-size-adjust: 10;
 }
