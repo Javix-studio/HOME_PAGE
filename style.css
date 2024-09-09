@@ -1,3 +1,4 @@
+/* Full-width inputs */
 body{
   background-color: #DBE2EF;
 }
@@ -26,10 +27,4 @@ body{
 .topnav a.active {
   background-color: #3F72AF;
   color: white;
-}
-p{
-  text-size-adjust: 10;
-}
-.topnav .icon {
-  display: none;
 }
