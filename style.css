@@ -43,7 +43,7 @@ h1{
   font: Calibri;
 }
 @media screen and (max-width: 500px) {
-  #navbar {
+  #navbar a {
     transition: 0.4s;
     position: center;
 
