@@ -42,10 +42,9 @@
 h1{
   font: Calibri;
 }
-@media screen and (max-width: 500px) {
-  #navbar a {
+@media screen and (min-width: 500) {
+  #nav {
     position: center;
-
+    transition: 0.4s;
   }
-  
 }
