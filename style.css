@@ -27,3 +27,7 @@ body{
   background-color: #3F72AF;
   color: white;
 }
+
+p{
+  font-size: larger;
+}
