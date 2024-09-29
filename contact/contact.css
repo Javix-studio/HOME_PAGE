@@ -28,3 +28,23 @@ body{
     background-color: #3F72AF;
     color: white;
   }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container{
+    border-radius: 25px;
+    padding: 75px;
+    height: 350px;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: #293f58;
+  }
+name,email,message{
+  font-size: large;
+  color:#DBE2EF;
+}
