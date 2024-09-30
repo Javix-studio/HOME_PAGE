@@ -1,0 +1,17 @@
+body{
+    background-color: #DBE2EF;
+  }
+  .container{
+    border-radius: 25px;
+    padding: 75px;
+    height: 350px;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color:#3F72AF;
+  }
+  p{
+    justify-content: center;
+    font-size: larger;
+  }
+
