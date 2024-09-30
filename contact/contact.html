@@ -1,32 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="content" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="topnav">
+
+    <!-- Navigation Bar -->
+    <nav class="topnav">
         <a href="../index.html">Home</a>
         <a href="../about/about.html">About</a>
         <a class="active" href="../contact/contact.html">Contact</a>
         <a href="../details/links.html">Links</a>
-    </div>
+    </nav>
 
-    <div class="container">
-      <center>
-        <form action="https://formsubmit.co/rajadurai14008@gmail.com" method="POST">
-          <input type="text" name="name" required>
-          <input type="email" name="email" required>
-          <button type="submit">Send</button>
-     </form>
+    <!-- Form Container -->
+    <section class="container">
+        <center>
+            <form action="https://formsubmit.co/rajadurai14008@gmail.com" method="POST">
+                <!-- Hidden field to format email as a table -->
+                <input type="hidden" name="_template" value="table">
+                
+                <!-- Hidden field to redirect to thank you page -->
+                <input type="hidden" name="_next" value="../contact/thanks/thanks.html">
+                
+                <!-- Name Input Field -->
+                <input type="text" name="name" required placeholder="Your Name" aria-label="Your Name">
+                
+                <!-- Email Input Field -->
+                <input type="email" name="email" required placeholder="Your Email" aria-label="Your Email">
+                
+                <!-- Message Input Field -->
+                <textarea name="message" required placeholder="Your Message" rows="5" aria-label="Your Message"></textarea>
+                
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+            </form>
         </center>
-    </div>
+    </section>
 
+    <!-- JavaScript File -->
     <script src="function.js"></script>
+    
 </body>
 </html>
-
-
-    
+ 
