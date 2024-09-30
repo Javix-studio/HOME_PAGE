@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<meta name=condent="width=device-width,initial scale=1.0">
-<title>Contact</title>
-<link rel="stylesheet" href="contact.css">
-<div class="topnav">
-    <a href="../index.html">Home</a>
-    <a href="../about/about.html"  >About</a>
-    <a class="active" href="../contact/contact.html">Contact</a>
-    <a href="../details/links.html">Links</a>
-    </a>
-  </div>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="content" content="width=device-width, initial scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="../index.html">Home</a>
+        <a href="../about/about.html">About</a>
+        <a class="active" href="../contact/contact.html">Contact</a>
+        <a href="../details/links.html">Links</a>
+    </div>
 
-  <div class="container">
-  <center>
-    <form action="https://formsubmit.co/el/jubice" method="POST">
-    <form onsubmit="sendEmail(); return false;">
-        <input type="text" name="name" required placeholder="Name">
-        <input type="email" name="email" required placeholder="Email">
-        <textarea name="message" required placeholder="Message"></textarea>
-        <button type="submit">Send</button>
-   </form>
-   </form>
-    </center>
-</div>
-  <script src="function.js"></script>
+    <div class="container">
+        <center>
+            <form action="https://formsubmit.co/rajadurai14008@gmail.com" method="POST" onsubmit="sendEmail();">
+                <input type="text" name="name" required placeholder="Name">
+                <input type="email" id="email" name="email" required placeholder="Email">
+                <textarea id="message" name="message" required placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </center>
+    </div>
 
+    <script src="function.js"></script>
+</body>
+</html>
 
 
     
