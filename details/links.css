@@ -1,5 +1,4 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #DBE2EF; /* Light background for contrast */
@@ -22,4 +21,10 @@ body {
 .topnav a:hover, .topnav a.active {
   background-color: #3F72AF;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .topnav a { /* Make each link take full width on small screens */
+      text-align: center; /* Align text to the left */
+  }
 }

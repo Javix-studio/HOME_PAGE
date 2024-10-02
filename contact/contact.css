@@ -63,6 +63,9 @@ button:hover {
   background-color: #DBE2EF;
   color:#112D4E; /* Darker green on hover */
 }
+label{
+  color:#112D4E;
+}
 
 /* Responsive styles */
 @media (max-width: 600px) {
